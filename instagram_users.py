@@ -7,7 +7,7 @@ import pandas as pd
 import datetime
 from pymongo import MongoClient
 import time
-MONGO_URL="mongodb://Bloverse:uaQTRSp6d9czpcCg@64.227.12.212:27017/social_profiling?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false"
+MONGO_URL="pass_in_your_link or just use 'localhost' "
 
 client= MongoClient(MONGO_URL)
 db = client.instagram_user
